@@ -39,7 +39,7 @@ The project uses the following Python libraries:
 
 ## Model Workflow:
 1. **Data Loading**: The CSV file is read into a Pandas DataFrame.
-2. **Label Encoding**: Labels are converted from ham and spam into binary format using mapping (ham → 0, spam → 1).
+2. **Label Encoding**: Labels are converted from ham and spam into binary format using mapping (ham → 0,     spam → 1).
 3. **Text Vectorization**: The text messages are converted into numerical format using Bag-of-Words via CountVectorizer, making them suitable for machine learning algorithms.
 4. **Data Splitting**: The data is split into a training set and a test set (80:20 ratio).
 5. **Model Training**: A MultinomialNB (Naive Bayes) classifier is trained on the vectorized messages.
