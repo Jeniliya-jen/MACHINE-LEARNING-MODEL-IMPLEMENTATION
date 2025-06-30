@@ -16,11 +16,11 @@
 This project is part of the CodTech Python Internship Program and focuses on implementing a machine learning model using Scikit-learn to detect spam messages. With the rapid digitalization of communication, especially through emails and SMS, spam detection has become increasingly important. The primary goal of this task is to build a predictive model capable of classifying a given message as “spam” or “ham” (not spam) using a dataset and present it professionally in a Jupyter Notebook.
 
 ## Project Overview:
-This project is a beginner-friendly implementation of a Spam Email Detection model using scikit-learn in a Jupyter Notebook. The aim is to classify messages as either ham (not spam) or spam, based on the content of the email. This is a common real-world application of machine learning and natural language processing (NLP) used in email services.
+This project is a beginner-friendly implementation of a **Spam Email Detection model** using **scikit-learn** in a **Jupyter Notebook**. The aim is to classify messages as either ham (not spam) or spam, based on the content of the email. This is a common real-world application of machine learning and natural language processing (NLP) used in email services.
 
 The solution involves transforming raw text data into a numerical format that a machine learning algorithm can understand, training the model, and evaluating how accurately it performs on unseen data.
 
-The objective of this project is to develop a supervised learning model that can accurately classify messages into two categories: spam and ham. To achieve this, a machine learning pipeline is constructed using tools like Pandas for data manipulation, Scikit-learn for preprocessing and model training, and Matplotlib/Seaborn for result visualization. The model is trained on a labeled dataset consisting of example messages, each categorized as spam or ham. The model should be able to learn from patterns within the data and apply this knowledge to classify unseen messages effectively.
+The objective of this project is to develop a supervised learning model that can accurately classify messages into two categories: spam and ham. To achieve this, a machine learning pipeline is constructed using tools like Pandas for **data manipulation, Scikit-learn for preprocessing** and **model training**, and **Matplotlib/Seaborn for result visualization**. The model is trained on a labeled dataset consisting of example messages, each categorized as spam or ham. The model should be able to learn from patterns within the data and apply this knowledge to classify unseen messages effectively.
 
 ## Dataset Overview:
 The dataset used is a CSV file named spam_email_data.csv, which contains 90 rows of labeled SMS/email messages. Each row has two columns:
@@ -39,7 +39,7 @@ The project uses the following Python libraries:
 
 ## Model Workflow:
 1. **Data Loading**: The CSV file is read into a Pandas DataFrame.
-2. **Label Encoding**: Labels are converted from ham and spam into binary format using mapping (ham → 0,     spam → 1).
+2. **Label Encoding**: Labels are converted from ham and spam into binary format using mapping (ham → 0, spam → 1).
 3. **Text Vectorization**: The text messages are converted into numerical format using Bag-of-Words via CountVectorizer, making them suitable for machine learning algorithms.
 4. **Data Splitting**: The data is split into a training set and a test set (80:20 ratio).
 5. **Model Training**: A MultinomialNB (Naive Bayes) classifier is trained on the vectorized messages.
@@ -65,7 +65,7 @@ The project uses the following Python libraries:
 The model achieved an accuracy of 83.33% on the test dataset, which indicates reliable performance for a simple spam detection task. The classification report provides deeper insights into how well the model performs on both spam and ham messages, and the confusion matrix helps visualize the number of true positives, false positives, etc. The sample predictions section showcases five examples from the test set along with the predicted label, demonstrating the model’s effectiveness.
 
 ## Conclusion:
-This project successfully demonstrates the implementation of a **Spam Email Detection model** using **Machine Learning techniques**. By leveraging the **Naive Bayes classification algorithm** and **CountVectorizer for text preprocessing**, the model was able to classify email messages as either spam or ham (non-spam) with commendable accuracy. The use of **Jupyter Notebook** allowed for an organized, interactive, and explainable workflow, from loading and preprocessing the dataset to training the model and evaluating its performance using accuracy metrics and a confusion matrix.
+This project successfully demonstrates the implementation of a **Spam Email Detection model** using **Machine Learning techniques**. By leveraging the **Naive Bayes classification algorithm** and **CountVectorizer for text preprocessing**, the model was able to classify email messages as either **spam or ham (non-spam)** with commendable accuracy. The use of **Jupyter Notebook** allowed for an organized, interactive, and explainable workflow, from loading and preprocessing the dataset to training the model and evaluating its performance using accuracy metrics and a confusion matrix.
 
 This task provided valuable hands-on experience with the complete ML pipeline — including **data cleaning, vectorization, model training, evaluation, and visualization**. It showcased how real-world problems like spam detection can be effectively tackled using simple yet powerful tools like scikit-learn.
 
