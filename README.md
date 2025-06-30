@@ -71,4 +71,7 @@ This task provided valuable hands-on experience with the complete ML pipeline â€
 
 I would like to extend my sincere thanks to **CodTech It Solutions** for providing this internship opportunity and for assigning such a practical and insightful task. It enabled me to apply theoretical knowledge in a real-world context and strengthened my foundation in machine learning, particularly in text classification. I am grateful for the learning experience.
 
+## Output:
+![Image](https://github.com/user-attachments/assets/9c6a3a57-9b60-4aa7-8ac9-64778c55c747)
+
 
