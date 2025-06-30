@@ -64,6 +64,8 @@ The project uses the following Python libraries:
 ## Results:
 The model achieved an accuracy of 83.33% on the test dataset, which indicates reliable performance for a simple spam detection task. The classification report provides deeper insights into how well the model performs on both spam and ham messages, and the confusion matrix helps visualize the number of true positives, false positives, etc. The sample predictions section showcases five examples from the test set along with the predicted label, demonstrating the model’s effectiveness.
 
+To illustrate the effectiveness of the spam classification model, a small portion of the test dataset was used to generate sample predictions. These messages may appear **jumbled** or **out of grammatical order**. This is because they were reconstructed using the **inverse_transform() method** after vectorization. While the full message structure is not restored, the words shown are meaningful indicators used by the model to determine whether the message is spam or not.
+
 ## Conclusion:
 This project successfully demonstrates the implementation of a **Spam Email Detection model** using **Machine Learning techniques**. By leveraging the **Naive Bayes classification algorithm** and **CountVectorizer for text preprocessing**, the model was able to classify email messages as either **spam or ham (non-spam)** with commendable accuracy. The use of **Jupyter Notebook** allowed for an organized, interactive, and explainable workflow, from loading and preprocessing the dataset to training the model and evaluating its performance using accuracy metrics and a confusion matrix.
 
