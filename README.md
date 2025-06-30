@@ -48,14 +48,14 @@ The project uses the following Python libraries:
 8. **Sample Output**: A few predictions from the test set are displayed, showing the model’s understanding of spam vs ham messages.
 
 ## What it does:
-1. **Model Implementation**:
+1.**Model Implementation**:
 - Loaded the dataset using pandas
 - Preprocessed the text data using CountVectorizer
 - Split the data into training and testing sets
 - Trained a Naive Bayes classifier using MultinomialNB
 - Made predictions on test data
 
-2. **Model Evaluation**:
+2.**Model Evaluation**:
 - Printed accuracy score
 - Displayed a classification report (precision, recall, F1-score)
 - Visualized the confusion matrix using Seaborn/Matplotlib
